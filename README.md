@@ -182,25 +182,23 @@ This project uses the **c40 (heavy compression)** variant only.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/CCT-Dublin/capstone-msc-da-feb-25-cohort-Russel003
-cd capstone-msc-da-feb-25-cohort-Russel003
+git clone https://github.com/Russel003/Facial-Deepfake-Detection-MSc-Data-Analytics-Capstone.git
+cd Facial-Deepfake-Detection-MSc-Data-Analytics-Capstone
 ```
 
 ### 2. Create and activate a virtual environment
 
+Tested with Python 3.11.
+
 ```bash
-python -m venv venv
+python -m venv .venv
+
+# macOS/Linux
+source .venv/bin/activate
 
 # Windows
-venv\Scripts\activate
+.venv\Scripts\activate
 
-# macOS / Linux
-source venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
 pip install -r requirements.txt
 ```
 
