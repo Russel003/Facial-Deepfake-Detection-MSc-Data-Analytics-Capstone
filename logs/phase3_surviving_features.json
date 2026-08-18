@@ -1,0 +1,13 @@
+{
+  "final_features": [
+    "ear_std",
+    "ear_min",
+    "lm_ratio_var"
+  ],
+  "n_features": 3,
+  "thresholds": {
+    "cohens_d": 0.2,
+    "fdr_alpha": 0.05,
+    "spearman": 0.85
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-04-07T19:25:34.416428",
+  "mode": "full",
+  "random_seed": 42,
+  "frame_step": 5,
+  "max_frames_per_vid": 100,
+  "features_per_video": 27,
+  "videos_succeeded": 1020,
+  "videos_failed": 0,
+  "failed_ids": [],
+  "elapsed_seconds": 271.8,
+  "elapsed_minutes": 4.53
+}

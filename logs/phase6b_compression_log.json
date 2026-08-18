@@ -1,0 +1,85 @@
+{
+  "run_timestamp": "2026-05-09T22:49:26.646732",
+  "features": [
+    "ear_std",
+    "ear_min",
+    "lm_ratio_var"
+  ],
+  "feature_stds": {
+    "ear_std": 0.0138,
+    "ear_min": 0.051981,
+    "lm_ratio_var": 0.00015
+  },
+  "n_trials_per_level": 20,
+  "baseline_auc": 0.6586,
+  "degradation_threshold_fraction": null,
+  "stress_results": [
+    {
+      "noise_fraction": 0.0,
+      "mean_auc": 0.6586,
+      "std_auc": 0.0,
+      "delta": -0.0
+    },
+    {
+      "noise_fraction": 0.2,
+      "mean_auc": 0.6529,
+      "std_auc": 0.0173,
+      "delta": -0.0057
+    },
+    {
+      "noise_fraction": 0.4,
+      "mean_auc": 0.6424,
+      "std_auc": 0.0254,
+      "delta": -0.0162
+    },
+    {
+      "noise_fraction": 0.6,
+      "mean_auc": 0.6415,
+      "std_auc": 0.03,
+      "delta": -0.0171
+    },
+    {
+      "noise_fraction": 0.8,
+      "mean_auc": 0.6226,
+      "std_auc": 0.0261,
+      "delta": -0.036
+    },
+    {
+      "noise_fraction": 1.0,
+      "mean_auc": 0.6206,
+      "std_auc": 0.0419,
+      "delta": -0.038
+    },
+    {
+      "noise_fraction": 1.2,
+      "mean_auc": 0.6022,
+      "std_auc": 0.0311,
+      "delta": -0.0564
+    },
+    {
+      "noise_fraction": 1.4,
+      "mean_auc": 0.6086,
+      "std_auc": 0.0352,
+      "delta": -0.05
+    },
+    {
+      "noise_fraction": 1.6,
+      "mean_auc": 0.5793,
+      "std_auc": 0.038,
+      "delta": -0.0793
+    },
+    {
+      "noise_fraction": 1.8,
+      "mean_auc": 0.5606,
+      "std_auc": 0.0357,
+      "delta": -0.098
+    },
+    {
+      "noise_fraction": 2.0,
+      "mean_auc": 0.5719,
+      "std_auc": 0.0504,
+      "delta": -0.0867
+    }
+  ],
+  "plot": "/home/hduser/deepfake-thesis/reports/compression_stress_auc_curve.png"
+}

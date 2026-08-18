@@ -1,0 +1,15 @@
+{
+  "best_model": "RandomForest",
+  "best_auc": 0.6586,
+  "all_scores": {
+    "RandomForest": 0.6586,
+    "XGBoost": 0.628,
+    "Ensemble": 0.6427
+  },
+  "features": [
+    "ear_std",
+    "ear_min",
+    "lm_ratio_var"
+  ],
+  "git_commit": "unknown"
+}

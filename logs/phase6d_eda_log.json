@@ -1,0 +1,16 @@
+{
+  "run_timestamp": "2026-05-09T22:50:09.920373",
+  "features": [
+    "ear_std",
+    "ear_min",
+    "lm_ratio_var"
+  ],
+  "plots_saved": [
+    "/home/hduser/deepfake-thesis/reports/eda_class_distribution.png",
+    "/home/hduser/deepfake-thesis/reports/eda_feature_boxplots.png",
+    "/home/hduser/deepfake-thesis/reports/eda_cohens_d_ranking.png",
+    "/home/hduser/deepfake-thesis/reports/eda_significance_landscape.png",
+    "/home/hduser/deepfake-thesis/reports/eda_correlation_heatmap.png",
+    "/home/hduser/deepfake-thesis/reports/eda_pairwise_scatter.png"
+  ]
+}

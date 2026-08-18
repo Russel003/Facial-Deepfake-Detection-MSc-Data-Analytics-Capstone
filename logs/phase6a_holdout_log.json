@@ -1,0 +1,103 @@
+{
+  "run_timestamp": "2026-05-09T22:48:08.265324",
+  "features": [
+    "ear_std",
+    "ear_min",
+    "lm_ratio_var"
+  ],
+  "manip_types": [
+    "Deepfakes",
+    "Face2Face",
+    "FaceSwap",
+    "NeuralTextures"
+  ],
+  "baseline_auc": 0.6586,
+  "mean_holdout_auc": 0.694,
+  "generalisation_gap": 0.0354,
+  "results": [
+    {
+      "held_out_type": "Deepfakes",
+      "train_types": [
+        "Face2Face",
+        "FaceSwap",
+        "NeuralTextures"
+      ],
+      "auc": 0.7858,
+      "f1": 0.8446,
+      "delta": 0.1272,
+      "confusion_matrix": [
+        [
+          27,
+          23
+        ],
+        [
+          37,
+          163
+        ]
+      ]
+    },
+    {
+      "held_out_type": "Face2Face",
+      "train_types": [
+        "Deepfakes",
+        "FaceSwap",
+        "NeuralTextures"
+      ],
+      "auc": 0.7253,
+      "f1": 0.7799,
+      "delta": 0.0667,
+      "confusion_matrix": [
+        [
+          31,
+          19
+        ],
+        [
+          60,
+          140
+        ]
+      ]
+    },
+    {
+      "held_out_type": "FaceSwap",
+      "train_types": [
+        "Deepfakes",
+        "Face2Face",
+        "NeuralTextures"
+      ],
+      "auc": 0.6162,
+      "f1": 0.6115,
+      "delta": -0.0424,
+      "confusion_matrix": [
+        [
+          32,
+          18
+        ],
+        [
+          104,
+          96
+        ]
+      ]
+    },
+    {
+      "held_out_type": "NeuralTextures",
+      "train_types": [
+        "Deepfakes",
+        "Face2Face",
+        "FaceSwap"
+      ],
+      "auc": 0.6487,
+      "f1": 0.7062,
+      "delta": -0.0099,
+      "confusion_matrix": [
+        [
+          32,
+          18
+        ],
+        [
+          81,
+          119
+        ]
+      ]
+    }
+  ]
+}

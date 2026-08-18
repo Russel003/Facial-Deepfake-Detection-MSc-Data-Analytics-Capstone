@@ -1,0 +1,25 @@
+{
+  "run_timestamp": "2026-05-09T22:50:05.483304",
+  "features": [
+    "ear_std",
+    "ear_min",
+    "lm_ratio_var"
+  ],
+  "roc_data": {
+    "Random Forest": {
+      "auc": 0.6586
+    },
+    "XGBoost": {
+      "auc": 0.628
+    },
+    "Ensemble": {
+      "auc": 0.6427
+    }
+  },
+  "plots_saved": [
+    "/home/hduser/deepfake-thesis/reports/roc_curves_all_models.png",
+    "/home/hduser/deepfake-thesis/reports/pr_curves_all_models.png",
+    "/home/hduser/deepfake-thesis/reports/confusion_matrices_all_models.png",
+    "/home/hduser/deepfake-thesis/reports/feature_importance_comparison.png"
+  ]
+}

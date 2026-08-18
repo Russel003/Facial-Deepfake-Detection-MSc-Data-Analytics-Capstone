@@ -1,0 +1,32 @@
+{
+  "run_timestamp": "2026-05-09T23:49:20.485366",
+  "features": [
+    "ear_std",
+    "ear_min",
+    "lm_ratio_var"
+  ],
+  "top_shap_feature": "lm_ratio_var",
+  "rf_mean_shap": {
+    "ear_std": 0.04916,
+    "ear_min": 0.03023,
+    "lm_ratio_var": 0.08881
+  },
+  "xgb_mean_shap": {
+    "ear_std": 0.16037,
+    "ear_min": 0.03148,
+    "lm_ratio_var": 0.32911
+  },
+  "xgb_shap_method": "native_pred_contribs",
+  "plots_saved": [
+    "/home/hduser/deepfake-thesis/reports/shap_random_forest_bar.png",
+    "/home/hduser/deepfake-thesis/reports/shap_random_forest_summary.png",
+    "/home/hduser/deepfake-thesis/reports/shap_rf_bar.png",
+    "/home/hduser/deepfake-thesis/reports/shap_rf_dependence_geometry.png",
+    "/home/hduser/deepfake-thesis/reports/shap_rf_dependence_lm_ratio_var.png",
+    "/home/hduser/deepfake-thesis/reports/shap_rf_summary.png",
+    "/home/hduser/deepfake-thesis/reports/shap_xgb_bar.png",
+    "/home/hduser/deepfake-thesis/reports/shap_xgb_summary.png",
+    "/home/hduser/deepfake-thesis/reports/shap_xgboost_bar.png",
+    "/home/hduser/deepfake-thesis/reports/shap_xgboost_summary.png"
+  ]
+}
