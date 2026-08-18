@@ -1,0 +1,52 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.zip
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# OS and editor noise
+.DS_Store
+**/.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local scratch and transfer helpers
+*_probe.py
+bootstrap_repo.py
+create_transfer_zip.py
+
+# Large local data artifacts
+data/features/*.csv
+data/features/*.parquet
+data/features/*.zip
+!data/features/dataset_manifest.json
+!data/features/sample_feature_table_head.csv
+
+# Raw video and external data roots
+*.mp4
+*.avi
+*.mov
+deepfake-data/
+raw/
+tmp/
+demo_videos
+cache/
+
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+data/.DS_Store
+logs/.DS_Store
+src/.DS_Store
+reports/.DS_Store
